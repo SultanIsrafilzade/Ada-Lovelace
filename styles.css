@@ -1,0 +1,43 @@
+nav {
+display: flex;
+align-items: center;
+}
+
+
+nav h2 {
+    font-size: 28px;
+    margin: 0;
+    text-align: center;
+}
+.container {
+    display: inline-flex;
+}
+.portrait {
+    flex-shrink: 0;
+    margin-left: 500px;
+    width: 300px;
+}
+details{
+    cursor: pointer;
+}
+summary{
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+}
+summary h3{
+    display: inline;
+}
+details img{
+    width: 50%;
+}
+.project-description{
+    display: block;
+}
+footer{
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+
+}
+footer span{
+    color: red;
+}
